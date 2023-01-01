@@ -1,0 +1,9 @@
+P1 est le code de la carte à laquelle est brancher le DHT 22 et le capteur de mouvement
+P2 est le code de la carte à laquelle est brancher les actionneurs simuler par des leds
+
+projet.py est le script qui souscrit au broker MQTT et insere les données récolté dans la base de donnée.
+ce script lis également dans le fichier actionneur.txt et recupere les valeurs écrites et les publis sur les topic concerné
+
+le fichier actionneur.txt est modifié à chaque fois que l'utilisateur appuie sur un boutton ON/OFF sur la page web pour modifier l'état d'un actionneur
+
+
